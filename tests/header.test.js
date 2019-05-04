@@ -10,7 +10,7 @@ afterEach(async () => {
   await page.close();
 });
 
-test("Header has the correct text", async () => {
+test("Header has the correct text of navbar brand", async () => {
   const text = await page.getContentsOf("a.brand-logo");
   expect(text).toEqual("Blogster");
 });
