@@ -13,3 +13,8 @@ _**Tech stack**_
 1. MongoDB and Mongoose
 1. Redis for caching the content
 1. AWS S3 for image upload
+
+##JEST automated testing with puppeteer
+
+
+##Continous integration using travis-ci
